@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1 h2 h3 {
+    line-height: 1.7em;
+}
+p{
+    line-height: 1.7em;
+}
+.contain{
+    border: 2px  black;
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0px 20px;
+    
+}
+/* Navbar styling */
+#navbar{ 
+    margin: 0;
+    padding: 0;
+    background: rgb(63, 53, 53);
+    overflow: auto;
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+    
+}
+#navbar li{
+    float: left;
+    margin: 0px 20px;
+}
+#navbar a{
+ text-decoration: none;
+ color: whitesmoke;
+}
+
+ /* links styling */
+
+ul li a{
+    display: block;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  #navbar li a:hover{
+     text-decoration: underline;
+     color: coral;
+     background-color: rgba(71, 58, 58, 0.867);
+ }
+
+h1{
+    float: left;
+ padding:20px 20px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+ #navbar h1 a:hover{
+    background-color: #333d;
+  color: coral;
+  font-style: italic;
+}
+  /* first Section styling  */
+
+#Enjoy{
+ border: 2px  black;
+ height: 350px;
+ text-align: center;
+ background-image: url(../imgs/oldpaper.jpg);
+ background-position: center center;
+ background-size: cover;
+}
+.enjoycontain{
+    border: 1px  black;
+    max-width:600px;
+    margin: auto;
+    padding: 90px 0px;
+    color: white;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;    
+}
+em{
+    font-style: normal;
+    color: rgb(200, 96, 41);
+}
+ .p1{
+     font-family: Arial, Helvetica, sans-serif;
+     color: ghostwhite;
+ }
+
+ /* first button styling */
+   .btn{
+       border: 2px  black;
+       width: 180px;
+       background-color: black;
+       padding: 10px 10px;
+       border-radius: 5px;
+       color: white;
+     
+       /* margin:  */
+       
+   }
+   
+   .btn a{
+       text-decoration: none;
+       color: white;
+       text-transform: capitalize;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   .btn a:hover{
+       text-decoration: underline;
+   }
+
+   /* second section styling */
+   #history{
+       border: 2px black;
+       height: 370px;
+       /* width: 100%; */
+       background: rgb(63, 53, 53);
+       
+   }
+ .image{
+     background: url('../imgs/typewriter.jpg')  no-repeat;
+     background-position: center top;
+     /* background-repeat: no-repeat; */
+     width: 50%;
+     float: left;
+     min-height:100%   
+ }
+
+ .read{
+     border: 2px  black;
+     width:50%;
+     height: 100%;
+     float: right;
+     /* margin: -280px 50px 80px 200px; */
+     /* padding: -10px 10px; */
+     text-align: center;
+     color: white;
+ }
+ h3{
+   margin: 10px 5px; 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+
+ }
+ p{
+     line-height: 1.5em;
+     padding-bottom: 30px;
+     
+     /* text-align: initial; */
+ }
+
+ /* second button styling */
+ 
+ .btn2{
+     border: 1px  black;
+     width: 100px;
+     /* height: 30px; */
+     padding: 10px 10px;
+     
+ }
+ .btn2 a{
+     color: black;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+ }
+ .btn2 a:hover{
+     text-decoration: underline;
+     color: #333d;
+ }
+ p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Box styling */
+.boxcover{
+    border: 2px solid black;
+    /* display: flex;
+    margin: 0 auto;
+    grid-template-columns: 30px 30px 30px;
+    grid-gap: 2.5em;
+    padding: 30px 20px 0 20px;
+    width: 70%; */
+
+    
+
+}
+
+.box{
+    float: left;
+   width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    height: 300px;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+ .bg-dark{
+    background: #f7c08a;
+    color: #333;
+}
+
+/* Footer stylng */
+#end{
+    text-align: center;
+    color: #333 ;
+    /* background: #333333; */
+    /* padding: 20px; */
+
+    /* border: 2px solid black; */
+}
+footer{
+    /* border: 2px solid black; */
+}
+
+/* ABOUT PAGE */
+
+#aboutcontainer{
+    /* border: 2px solid black; */
+    height: 400px;
+    background-color: #f4f4f4;
+
+}
+#about{
+    float: left;
+    width: 50%;
+    padding: 20px 20px;
+    margin: 10px 20px;
+    /* border: 2px solid black; */
+    text-align: initial;
+    /* background-color: #f4f4f4; */
+
+}
+#about h2{
+    font-size: 25px;
+    line-height: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#about p{
+    line-height: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ 
+
+ .picture{
+    margin: 50px 20px;
+    padding: 50px 50px;
+    width: 50%;
+    float: right;
+    margin: -40px;
+    display: block;
+    
+ }
+ img{
+      border-radius: 50%;
+      /* padding:  40px 30px; */
+      /* min-height: 100px; */
+      
+ }
+ /* Guest testimonials */
+ #testify{
+    background: url(../imgs/oldpaper.jpg);     
+     margin: -10px 0px;
+     margin-bottom: 20px;
+     
+ }
+ #guestcontainer{
+     border: 2px black;
+     padding: -10px 0px;
+    
+ }
+ .guestcover{
+     border: 1px solid black;
+     margin: -50px 90px;;
+     width: 900px;
+     margin-bottom: 20px;
+ }
+
+ h3{
+     color:white;
+     font-size: 30px;
+     text-align: center;
+     padding: 50px 0;
+     border: 1px  black;
+     width: 500px;
+     margin: 10px auto;
+
+ }
+
+
+
+ .guesttest{
+     display: flex;
+     border: 2px black;
+     width: 800px;
+     margin: 30px 50px;
+     /* margin-bottom: 40px; */
+     background: #f7c08a;
+     padding: 10px;
+     border-radius: 20px;
+ }
+
+ .guesttest2{
+    display: flex;
+    border: 2px  black;
+    width: 90%;
+    margin: 70px 50px;
+    margin-bottom: 40px;
+    /* padding: px 0; */
+
+ }
+ .pp{
+     padding: 30px 20px;
+     text-align: center;
+ }
+ /* FOOTER STYLING */
+  
+ #footer2{
+     /* border: 2px solid black; */
+     position: relative;
+     background:rgb(63, 53, 53);     
+     margin: -20px 0;
+     min-height:80px;
+     text-align: center;
+     color: white;
+     /* top:80px; */
+     margin-top: 200px;
+     padding: 20px;
+     /* margin: 50px 0; */
+ }
+#footer3{
+    position: relative;
+    background:rgb(63, 53, 53);     
+    margin: -20px 0;
+    min-height:40px;
+    text-align: center;
+    color: white;
+    margin-top: 280px;
+    padding: 20px;
+   
+}
+
+ #footer1{
+    background:rgb(63, 53, 53);
+    margin: -20px 0;
+    min-height:80px;
+    text-align: center;
+    color: white;
+ }
+ .endfooter{
+padding: 10px 0;
+ }
+ /* Contact styling */
+ #maincontact{
+     margin: 10px 20px;
+    background-color: #f4f4f4;
+     
+ }
+ #contactpage p{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding: 10px 3px;
+ }
+ input, textarea{
+    width: 95%;
+    padding: 10px;
+    /* margin: 9px 2px 4px 3px; */
+    /* box-sizing: border-box; */
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+
+}
+textarea{
+    height: 100px;
+}
+form, .formgroup{
+    /* width: 100%; */
+    /* border: 2px solid black; */
+    margin-bottom:5px;
+    /* padding: 20px 20px; */
+    /* margin-top: 5px; */
+
+}
+#contactpage{
+    /* padding: 20px 30px; */
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+input:hover{
+ 
+     border:2px solid #f7c08a;
+ }
+textarea:hover{
+    border: 2px solid #f7c08a;
+
+}
+.btn3{
+        border: 2px  black;
+        width: 100px;
+        background-color: black;
+        padding: 10px 10px;
+        border-radius: 5px;
+        color: white;
+        margin: 5px;
+        font-size: 15px;
+        
+    }
+.btn3:hover{
+    text-decoration: underline;
+}
+#boxe{
+    float: left ;
+    width: 33.3%;
+     padding: 50px;
+     text-align: center;
+     height: 200px;
+     /* border: 2px solid black; */
+     background: #333;
+     margin-bottom: 20px;
+    
+
+ }
+#boxe p{
+    color: white;
+}
+.change{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    /* margin: 10px 10px; */
+    /* padding: 10px; */
+}
+#contactpag{
+    background-color: #f4f4f4;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
