@@ -69,7 +69,7 @@ h1{
  border: 2px  black;
  height: 350px;
  text-align: center;
- background-image: url(../imgs/oldpaper.jpg);
+ background-image: url(../imgs/pexels-vincent-gerbouin-1168764.jpg);
  background-position: center center;
  background-size: cover;
 }
@@ -125,7 +125,7 @@ em{
        
    }
  .image{
-     background: url('../imgs/typewriter.jpg')  no-repeat;
+     background: url('../imgs/pexels-vincent-gerbouin-1168764.jpg')  no-repeat;
      background-position: center top;
      /* background-repeat: no-repeat; */
      width: 50%;
@@ -268,8 +268,8 @@ footer{
  }
  /* Guest testimonials */
  #testify{
-    background: url(../imgs/oldpaper.jpg);     
-     margin: -10px 0px;
+    background: url(../imgs/pexels-curtis-adams-3773577.jpg) repeat;     
+     margin: 10px 0px;
      margin-bottom: 20px;
      
  }
